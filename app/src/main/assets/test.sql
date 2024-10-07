@@ -1,0 +1,12 @@
+create table test(id integer PRIMARY KEY AUTOINCREMENT , describe varchar(50), level varchar(5),score int , optionA varchar(30), optionB varchar(30), optionC varchar(30), optionD varchar(30),answer varchar(30));
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (1, '中国式现代化的根本性质是由什么决定的？', '适中', 2, 'A.我国的国家性质', 'B.党的领导', 'C.我国的主要矛盾', 'D.人民群众', 'B.党的领导');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (2, '以下哪个不是我国的基本战略？', '适中', 2, 'A.科教兴国', 'B.人才强国', 'C.乡村振兴', 'D.共同富裕', 'D.共同富裕');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (3, '各级党校要把______作为教学的主要内容', '简单', 1, 'A.文化教育', 'B.科技教育', 'C.党性教育', 'D.体育教育', 'C.党性教育');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (4, '党校要把______和党规党纪学习教育作为党性教育的重要内容', '简单', 1, 'A.党的作风', 'B.党章', 'C.党史', 'D.党的初心', 'B.党章');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (5, '中国共产党成立于哪一年？', '简单', 1, 'A.1911年', 'B.1921年', 'C.1931年', 'D.1941年', 'B.1921年');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (6, '中国共产党的组织体系由哪些组成部分？', '困难', 3, 'A. 中央委员会、地方委员会、纪律检查委员会', 'B. 中央委员会、地方委员会、组织部', 'C. 中央委员会、中央纪律检查委员会、中央组织部', 'D. 中央委员会、中央纪律检查委员会、地方委员会', 'C. 中央委员会、中央纪律检查委员会、中央组织部');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (7, '中国共产党始终坚持的是什么路线？', '简单', 1, 'A. 马克思主义路线', 'B. 群众路线', 'C. 独立自主路线', 'D. 先进性路线', 'B. 群众路线');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (8, '中国共产党高度重视的是哪方面的建设？', '简单', 1, 'A. 经济建设', 'B. 党风廉政建设', 'C. 军事建设', 'D. 文化建设', 'B. 党风廉政建设');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (9, '中国共产党的基本组织是什么？', '简单', 1, 'A. 党委', 'B. 党总支', 'C. 党支部', 'D. 党小组', 'C. 党支部');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (10, '中国共产党把自身建设作为什么任务？', '简单', 1, 'A. 重要任务', 'B. 次要任务', 'C.首要任务', 'D. 不重要任务', 'A. 重要任务');
+INSERT INTO `test`(`id`, `describe`, `level`, `score`, `optionA`, `optionB`, `optionC`, `optionD`, `answer`) VALUES (11, '中国共产党第十九次全国代表大会于哪一年举行？', '简单', 1, 'A. 2017年', 'B. 2018年', 'C. 2019年', 'D. 2020年', 'A. 2017年');
